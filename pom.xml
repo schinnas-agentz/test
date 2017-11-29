@@ -46,14 +46,13 @@
 
     <distributionManagement>
         <repository>
-            <id>aws-release</id>
-            <name>AWS Release Repository</name>
-            <url>s3://repository.agentzai.com/releases</url>
+            <id>central</id>
+            <url>http://10.0.0.37/artifactory/libs-release-local/</url>
         </repository>
+
         <snapshotRepository>
-            <id>aws-snapshot</id>
-            <name>AWS Snapshot Repository</name>
-            <url>s3://repository.agentzai.com/snapshots</url>
+            <id>snapshots</id>
+            <url>http://10.0.0.37/artifactory/libs-snapshot-local/</url>
         </snapshotRepository>
     </distributionManagement>
 
